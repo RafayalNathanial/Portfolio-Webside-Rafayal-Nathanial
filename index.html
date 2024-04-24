@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webside - Rafayal Nathanial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <script src="https://kit.fontawesome.com/03a7c3ff30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headr-text">
+                <p>WEB DEVALOPER</p>
+                <h1>Hi, I Am <span>Rafayal Nathanial</span> <br>From West Bengal</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------About----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nam iure ea, repudiandae,
+                        dicta harum commodi reiciendis quos placeat eligendi magni aspernatur a minima sint soluta
+                        assumenda deleniti omnis fugiat.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expericence')">Expericence</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DEVALOPMENT</span><br>HTML,CSS,JAVASCRIPT,REACT,</li>
+                            <li><span>PROGRAMMING</span><br>C,C++</li>
+                            <li><span>MS. OFFICE</span><br>Word, Power Point, Advance Excel, Access</li>
+                            <li><span>My SQL</span><br>Workbench</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="expericence">
+                        <ul>
+                            <li><span>Computer Teacher</span><br>I have two years of experience in part-time computer software teaching at the Netaji Subhas Computer Shiksha Mission. My expertise extends to teaching a diverse range of subjects, including MS Office, C, C++, HTML, and more.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>GKCEM </span><br>B.Tech(Pursuing)</li>
+                            <li><span>GKCEM </span><br>Diploma,August 2018 - August 2021,OGPA : 7.9 (78.8%)</li>
+                            <li><span>Alida Bagnar High School (WB BOARD) </span><br>March 2018,Class XII : 72.80 %</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------- Services----------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I'm Rafayal Nathanial, a skilled web developer offering bespoke website development services. Let's work together to create modern, responsive, and user-friendly websites that bring your vision to life.</p>
+                    <a href="https://java-script-major-module-test-stone-paper-scissor.vercel.app/" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <h2>Digital Marketing</h2>
+                    <p>I'm Rafayal Nathanial, a dedicated digital marketing specialist committed to driving online growth and visibility for businesses. With expertise in SEO, social media marketing, and content strategy, I tailor effective digital campaigns that resonate with audiences and deliver measurable results.</p>
+                    <a href="https://www.facebook.com/abrcomputerlearningcentre" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-excel"></i>
+                    <h2>Excel</h2>
+                    <p>
+                        I'm Rafayal Nathanial, an expert in creating dynamic and insightful Excel dashboards tailored to streamline data analysis and visualization. From interactive reports to efficient data management tools, I specialize in transforming raw data into actionable insights that empower informed decision-making.</p>
+                    <a href="https://github.com/RafayalNathanial/Make-Dashboard-Using-Excel" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------- Portfolio ------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Smart Electrical Equipment Controlling And Monitoring System</h3>
+                        <h4>Shortlisted_Teams_grand_Finale : New India Vibrant Hackathon 2023 -</h4>
+                        <p> It was an electrical-based project, and using this, we can control all our electrical equipment, like turning off and monitoring the power, current, voltage, etc.
+                        </p>
+                        <a href="https://github.com/RafayalNathanial/New-India-Vibrant-Hackathon" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Stone-Paper-Scissor</h3>
+                        <p> Stone-Paper-Scissor -> This game is making using HTML,CSS,JavaScript
+                        </p>
+                        <a href="https://java-script-major-module-test-stone-paper-scissor.vercel.app/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Make-Dashboard-Using-Excel</h3>
+                        <p> This report presents an analysis of sales data using an Excel dashboard created through PivotTables and slicers. The dashboard provides valuable insights into sales performance, trends, and key metrics. The analysis covers 01/04/2023 – 12/09/2023 and focuses on various aspects of sales date, including product categories, and salesperson performance
+                        </p>
+                        <a href="https://github.com/RafayalNathanial/Make-Dashboard-Using-Excel/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/RafayalNathanial?tab=repositories" target="_blank" class="btn">See Mores</a>
+        </div>
+    </div>
+    <!-- ----------------- Contact ------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope con"></i> rafayalnathanial@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone con"> </i> 8597196487</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/rafayalnathanial/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/RafayalNathanial" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/RafayalNathani1" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/rafayal90" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Images/my-cv.pdf" class="btn btn-2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name*" required>
+                        <input type="email" name="Email" placeholder="Your Email*" required>
+                        <input type="number" name="Number" placeholder="Your Mobile Number*" required>
+                        <textarea name="Message" id=""  rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; Rafayal Nathanial.<i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="scriptcontact.js"></script>
+</body>
+</html>
